@@ -30,7 +30,7 @@ Set the `host port` as `8000`
 
 And finally set an enviroment variable called `KEY` with your real API KEY from  https://www.weatherapi.com/ and click the RUN button
 
-This will open the Container section. Locate the "yuhu" container and click on the "Open in browser" button (selected in green in the below image)
+This will open the "Containers" section. Locate the "yuhu" container and click on the "Open in browser" button (selected in green in the below image)
 
 ![image](./img/run_container.png)
 
