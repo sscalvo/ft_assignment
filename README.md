@@ -16,7 +16,7 @@ Now open your browser and point it to http://localhost:8000 and follow the instr
 
 ### docker-compose
 
-Under the "IMAGES" section, select the `sscalvo/fastapi-fortris-test:1.2` image and click on the RUN button
+Under the "Images" section, select the `sscalvo/fastapi-fortris-test:1.2` image and click on the RUN button
 
 ![image](./img/launch_docker-compose.png)
 
