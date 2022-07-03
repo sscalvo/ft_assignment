@@ -1,7 +1,7 @@
 # ft_assignment
-### API service with five endpoints
+## API service with five endpoints
 
-#### Option 1: Command line
+### Option 1: Command line
 Download docker image with:
 
 `sudo docker pull sscalvo/fastapi-fortris-test:1.2`
@@ -14,7 +14,7 @@ You should substitute `<your api key for weather>` with your real API KEY from  
 
 Now open your browser and point it to http://localhost:8000 and follow the instructions
 
-#### Option 2: docker-compose
+### Option 2: docker-compose
 
 Under the "Images" section, select the `sscalvo/fastapi-fortris-test:1.2` image and click on the RUN button
 
@@ -36,7 +36,7 @@ This will open the "Containers" section. Locate the "yuhu" container and click o
 
 Your browser will open pointing to http://localhost:8000 and then just follow the instructions
 
-#### Option 3: Build your own
+### Option 3: Build your own
 
 Clone this repository in your local folder
 
