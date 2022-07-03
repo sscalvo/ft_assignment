@@ -25,9 +25,10 @@ You wil see this pop-up window for optional settings:
 ![image](./img/env_var_KEY.png)
 
 Set the `container name`as `yuhu`
+
 Set the `host port` as `8000`
-And finally set an enviroment variable called `KEY` with your real API KEY from  https://www.weatherapi.com/
-and click the RUN button
+
+And finally set an enviroment variable called `KEY` with your real API KEY from  https://www.weatherapi.com/ and click the RUN button
 
 This will open the Container section. Locate the "yuhu" container and click on the "Open in browser" button (selected in green in the below image)
 
