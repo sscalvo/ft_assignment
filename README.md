@@ -1,20 +1,20 @@
 # ft_assignment
 ### API service with five endpoints
 
-#### Command line
+#### Option 1: Command line
 Download docker image with:
 
 `sudo docker pull sscalvo/fastapi-fortris-test:1.2`
 
 Now you can launch it with:
 
-`docker run -p 8000:8000 --name fortris-api sscalvo/fastapi-fortris-test:1.2 -e "KEY=<your api key for weather>`
+`sudo docker run -p 8000:8000 --name fortris-api sscalvo/fastapi-fortris-test:1.2 -e "KEY=<your api key for weather>`
 
 You should substitute `<your api key for weather>` with your real API KEY from  https://www.weatherapi.com/
 
 Now open your browser and point it to http://localhost:8000 and follow the instructions
 
-### docker-compose
+#### Option 2: docker-compose
 
 Under the "Images" section, select the `sscalvo/fastapi-fortris-test:1.2` image and click on the RUN button
 
@@ -34,7 +34,27 @@ This will open the "Containers" section. Locate the "yuhu" container and click o
 
 ![image](./img/run_container.png)
 
-Your browser will open pointing to http://localhost:8000
+Your browser will open pointing to http://localhost:8000 and then just follow the instructions
+
+#### Option 3: Build your own
+
+Clone this repository in your local folder
+
+`git clone https://github.com/sscalvo/ft_assignment`
+
+**Build** it with docker:
+
+`sudo docker build -t sscalvo/fastapi-fortris-test:1.2 .`
+
+**Launch** it:
+
+`sudo docker run -p 8000:8000 --name fortris-api sscalvo/fastapi-fortris-test:1.2 -e "KEY=<your api key for weather>`
+
+You should substitute `<your api key for weather>` with your real API KEY from  https://www.weatherapi.com/
+
+Now open your browser and point it to http://localhost:8000 and follow the instructions
+
+
 
 
 
