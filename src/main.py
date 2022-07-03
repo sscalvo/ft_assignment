@@ -15,7 +15,7 @@ app.api_key_weather = os.environ['KEY']
 
 
 @app.get('/', response_class=HTMLResponse)
-def index(api_key: Optional[str] = None):
+def index():
     return HTMLResponse(content=html_content, status_code=200)
 
 
